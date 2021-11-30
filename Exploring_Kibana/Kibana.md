@@ -1,7 +1,10 @@
+## Exploring Kibana from Day 3 of the activity
+
 Instructions
+
 	1. Add the sample web log data to Kibana.
 	2. Answer the following questions:
-		○ In the last 7 days, how many unique visitors were located in India? 254
+	- In the last 7 days, how many unique visitors were located in India? 254
 		○ In the last 24 hours, of the visitors from China, how many were using Mac OSX? 13
 		○ In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors? 6.6, 13.3
 		○ In the last 7 days, what country produced the majority of the traffic on the website? China
