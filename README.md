@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-! https://github.com/pbruhin/Projectw13/blob/main/Diagrams/Week%2012%20net%20diagram.jpg
+! Network diagram: https://github.com/pbruhin/Projectw13/blob/main/Diagrams/Week%2012%20net%20diagram.jpg
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -38,7 +38,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name      | Function      | IP Address     | Operating System |
 |-----------|---------------|----------------|------------------|
-| Jump Box  | Gateway       | 10.0.0.1       | Linux            |
+| Jump Box  | Gateway       | 10.0.0.4       | Linux            |
 | Web 1     | Server        | 10.0.0.5       | Linux DVWA       |
 | Web 2     | Server        | 10.0.0.6       | Linux DVWA       |
 | Web 3     | Server        | 10.0.0.7       | Linux DVWA       |
@@ -58,12 +58,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name         | Publicly Accessable | Allowed IP Addresses |
 |--------------|---------------------|----------------------|
-| Jump Box     | No                  | 10.0.0.4             |
-| Web 1        | No                  | 10.0.0.5             |
-| Web 2        | No                  | 10.0.0.6             |
-| Web 3        | No                  | 10.0.0.7             |
-| RedTeamLB    | Yes                 | 20.121.222.144       |
-| Elk-Stack-VM | No                  | 20.62.89.232         |
+| Jump Box     | No                  | My host machine      |
+| Web 1        | No                  | 10.0.0.4             |
+| Web 2        | No                  | 10.0.0.4             |
+| Web 3        | No                  | 10.0.0.4             |
+| Elk-Stack-VM | No                  | My host machine      |
 
 ### Elk Configuration
 
